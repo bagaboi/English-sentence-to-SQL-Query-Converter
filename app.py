@@ -5,7 +5,7 @@ import streamlit.components.v1 as components
 import string
 import nltk
 import re
-#nltk.download('conll2000')
+nltk.download('conll2000')
 from nltk.corpus import conll2000
 from nltk.chunk.util import tree2conlltags,conlltags2tree
 from nltk.tag import UnigramTagger,BigramTagger
